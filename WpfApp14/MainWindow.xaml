@@ -27,6 +27,7 @@
                 </Grid>
             </Border>
             <DataTemplate.Triggers>
+                    <DataTrigger Binding="{Binding Path=CategoryProduct}">
                     <DataTrigger.Value>
                         <local:Categories>Food</local:Categories>
                     </DataTrigger.Value>
